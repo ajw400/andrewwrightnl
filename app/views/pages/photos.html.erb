@@ -1,0 +1,42 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-6 col-centered text-center">
+      <%= link_to "Home", root_path %>
+      <h1>Publicity Photos</h1>
+      <h3>Andrew Wright</h3>
+      <a href="#lowres">low resolution</a> &nbsp | &nbsp
+      <a href="#highres">high resolution</a>
+      <hr>
+      <h4>Please always credit Feiko Koster</h4>
+      <hr>
+
+      <div id="lowres">
+      <h2>Low Resolution</h2>
+      <%= image_tag "Andrew Wright 001 LR", class: "pic" %>
+      <%= image_tag "Andrew Wright 002 LR", class: "pic" %>
+      <%= image_tag "Andrew Wright 003 LR", class: "pic" %>
+      <%= image_tag "Andrew Wright 004 extra LR", class: "pic" %>
+      </div>
+      <hr>
+      <div id="highres">
+      <h2>High Resolution</h2>
+      <%= image_tag "Andrew Wright 001", class: "pic" %>
+      <%= image_tag "Andrew Wright 001 B&W", class: "pic" %>
+      <%= image_tag "Andrew Wright 002", class: "pic" %>
+      <%= image_tag "Andrew Wright 003", class: "pic" %>
+      <%= image_tag "Andrew Wright 004 extra", class: "pic" %>
+      </div>
+
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-6 col-centered text-center">
+      <h3>Links</h3>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-sm-12 col-md-8 col-lg-6 col-centered text-center">
+        <%= link_to "Home", root_path %>
+    </div>
+  </div>
+</div>

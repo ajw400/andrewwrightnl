@@ -1,0 +1,12 @@
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.pic {
+  width: 100%;
+}
+
+.homepic {
+  width: 300px;
+}
