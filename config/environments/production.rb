@@ -24,6 +24,10 @@ Rails.application.configure do
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
+  config.public_file_server.headers = {
+  'Cache-Control' => 'public, s-maxage=31536000, maxage=15552000',
+  'Expires' => "#{1.year.from_now.to_formatted_s(:rfc822)}"
+}
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
